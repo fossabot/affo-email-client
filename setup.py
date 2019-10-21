@@ -25,7 +25,7 @@ def get_requirements(env=None):
     requirements_filename = "requirements.txt"
 
     if env:
-        requirements_filename = f"requirements-{env}.txt"
+        requirements_filename = "requirements-{}.txt".format(env)
 
     with open(requirements_filename) as fp:
         return [x.strip() for x in fp.read().split("\n") if not x.startswith("#")]
