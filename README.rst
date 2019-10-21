@@ -1,10 +1,20 @@
-Email Client
-============
+|Build Status| |Code Style|
+
+AFFO Email Client
+=================
 
 A simple python interface for the email service.
 
 Installation
 ------------
+
+============ =============================================
+**Version**  1.0.0
+**Web**      https://affo.io/
+**Download** https://pypi.org/affoio/affo-email-client/
+**Source**   https://github.com/affoio/affo-email-client/
+**Keywords** python, email, service, client
+============ =============================================
 
 ::
 
@@ -28,3 +38,8 @@ The example below shows how you get an inform
        "text": "",
        "tag": "test"
    })
+
+.. |Build Status| image:: https://travis-ci.org/affoio/affo-email-client.svg?branch=master
+   :target: https://travis-ci.org/affoio/affo-email-client
+.. |Code Style| image:: https://img.shields.io/badge/code%20style-black-000000.svg
+   :target: https://github.com/psf/black
