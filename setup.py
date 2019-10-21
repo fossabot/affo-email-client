@@ -35,7 +35,7 @@ install_requirements = get_requirements()
 dev_requirements = get_requirements("dev")
 
 setup(
-    name="affo-sms-service",
+    name="affo-email-client",
     version=version,
     description="",
     long_description=long_description,

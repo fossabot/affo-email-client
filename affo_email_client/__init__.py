@@ -3,6 +3,8 @@ from simple_rest_client.resource import Resource
 
 __all__ = ["Client"]
 
+VERSION = "1.0.0"
+
 
 class MessageResource(Resource):
     actions = {"create": {"method": "POST", "url": "/message/"}}
